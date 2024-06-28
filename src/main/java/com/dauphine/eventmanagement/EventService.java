@@ -1,3 +1,4 @@
+// EventService.java
 package com.dauphine.eventmanagement;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,4 @@ public class EventService {
     public Event createEvent(Event event) {
         return eventRepository.save(event);
     }
-
-    // Autres méthodes CRUD
 }

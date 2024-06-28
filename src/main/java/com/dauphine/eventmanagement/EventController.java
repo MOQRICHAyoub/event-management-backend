@@ -1,3 +1,4 @@
+// EventController.java
 package com.dauphine.eventmanagement;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,4 @@ public class EventController {
     public Event createEvent(@RequestBody Event event) {
         return eventService.createEvent(event);
     }
-
-    // Autres endpoints CRUD
 }
