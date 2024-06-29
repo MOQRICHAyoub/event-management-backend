@@ -10,45 +10,46 @@ public class Feedback {
     private Integer eventid;
     private String username;
     private String comments;
-    private int rating;
+    private Integer rating;
+
+    // Getters and Setters
+    public Integer getId() {
+        return id;
+    }
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public void setEventid(Integer eventid) {
-        this.eventid = eventid;
-    }
-
-    public void setUsername(String userName) {
-        this.username = userName;
-    }
-
-    public void setComments(String comments) {
-        this.comments = comments;
-    }
-
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
-    public Integer getId() {
-        return id;
     }
 
     public Integer getEventid() {
         return eventid;
     }
 
+    public void setEventid(Integer eventid) {
+        this.eventid = eventid;
+    }
+
     public String getUsername() {
         return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getComments() {
         return comments;
     }
 
-    public int getRating() {
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    public Integer getRating() {
         return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
     }
 }
