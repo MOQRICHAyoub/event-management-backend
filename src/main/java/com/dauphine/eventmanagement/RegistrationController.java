@@ -25,4 +25,9 @@ public class RegistrationController {
     public Registration register(@RequestBody Registration registration) {
         return registrationService.saveRegistration(registration);
     }
+
+    @GetMapping("/event/{eventId}/user/{userName}")
+    public boolean isUserRegistered(@PathVariable int eventId, @PathVariable String userName) {
+        return registrationService.isUserRegistered(eventId, userName);
+    }
 }

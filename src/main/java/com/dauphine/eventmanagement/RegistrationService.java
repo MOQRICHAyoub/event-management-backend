@@ -21,4 +21,8 @@ public class RegistrationService {
     public Registration saveRegistration(Registration registration) {
         return registrationRepository.save(registration);
     }
+
+    public boolean isUserRegistered(int eventId, String userName) {
+        return registrationRepository.existsByEventidAndUsername(eventId, userName);
+    }
 }

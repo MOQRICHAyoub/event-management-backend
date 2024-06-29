@@ -7,5 +7,6 @@ import java.util.List;
 
 @Repository
 public interface RegistrationRepository extends JpaRepository<Registration, Integer> {
-    List<Registration> findByEventid(int eventid); // Renommé de findByEventId en findByEventid
+    List<Registration> findByEventid(int eventid);
+    boolean existsByEventidAndUsername(int eventId, String username);
 }
