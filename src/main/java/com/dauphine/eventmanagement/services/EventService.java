@@ -1,6 +1,8 @@
 // EventService.java
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.services;
 
+import com.dauphine.eventmanagement.models.Event;
+import com.dauphine.eventmanagement.repositories.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

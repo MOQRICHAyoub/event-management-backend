@@ -1,5 +1,7 @@
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.services;
 
+import com.dauphine.eventmanagement.models.Feedback;
+import com.dauphine.eventmanagement.repositories.FeedbackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

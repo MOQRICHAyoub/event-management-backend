@@ -1,5 +1,6 @@
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.repositories;
 
+import com.dauphine.eventmanagement.models.Registration;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

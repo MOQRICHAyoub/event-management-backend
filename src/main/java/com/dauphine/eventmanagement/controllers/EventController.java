@@ -1,6 +1,8 @@
 // EventController.java
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.controllers;
 
+import com.dauphine.eventmanagement.models.Event;
+import com.dauphine.eventmanagement.services.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

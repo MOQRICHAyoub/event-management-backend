@@ -1,5 +1,7 @@
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.services;
 
+import com.dauphine.eventmanagement.models.Registration;
+import com.dauphine.eventmanagement.repositories.RegistrationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

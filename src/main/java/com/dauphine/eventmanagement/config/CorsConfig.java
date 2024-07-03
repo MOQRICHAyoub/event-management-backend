@@ -1,5 +1,5 @@
 // CorsConfig.java
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

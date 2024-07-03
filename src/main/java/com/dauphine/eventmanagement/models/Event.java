@@ -1,4 +1,4 @@
-package com.dauphine.eventmanagement;
+package com.dauphine.eventmanagement.models;
 
 import jakarta.persistence.*;
 import java.util.Date;
